@@ -18,7 +18,7 @@ class School
   def sort
     sorted_list = {}
     roster.each do 
-      sorted_list[year] = students.sort
+      sorted_list[grades] = students.sort
     end
     sorted_list
   end
